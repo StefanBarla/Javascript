@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+
+  </head>
+
+  <body>
+ <input type="number" id="num1">
+<button id="btn1">Click me !</button>
+<div id="demo"></div>
+    
+    
+<script>
+//window.alert("Hello");
+event1 = document.getElementById("btn1");
+event1.addEventListener('click', myfirst, false);
+    
+function myfirst(){
+var userinput = document.getElementById("num1").value;
+//  alert("Hello World");
+document.getElementById("demo").innerHTML = userinput;
+
+
+}
+</script>
+</body>
+ </html>
